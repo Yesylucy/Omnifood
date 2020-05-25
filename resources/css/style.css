@@ -242,8 +242,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.973);
-  box-shadow: 0 2px 2px rgb(243, 243, 243);
+  background-color: white;
 }
 
 .main-nav {
@@ -596,7 +595,6 @@ footer p {
   margin-top: 20px;
 }
 
-
 /* Animations */
 
 .js--wp-1,
@@ -607,7 +605,6 @@ footer p {
 
 .js--wp-1.animated,
 .js--wp-2.animated,
-.js--wp-3.animated  {
+.js--wp-3.animated {
   opacity: 1;
-
 }
