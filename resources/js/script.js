@@ -107,4 +107,18 @@ $(document).ready(function () {
       offset: "50%",
     }
   );
+
+  /* Mobile nav */
+  $(".js--nav-icon").click(function () {
+    var nav = $(".js--main-nav");
+    var icon = $(".js--nav-icon ion-icon");
+    nav.slideToggle(200);
+    if (icon.hasClass("menu-outline")) {
+      icon.addClass("close-outline");
+      icon.removeClass("menu-outline");
+    } else {
+      icon.addClass("menu-outline");
+      icon.removeClass("close-outline");
+    }
+  });
 });
